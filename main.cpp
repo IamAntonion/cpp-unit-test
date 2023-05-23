@@ -22,7 +22,6 @@ public:
     }
 
     bool AreSynonyms(const string& first_word, const string& second_word) const {
-        // Напишите недостающий код
         if (synonyms_.count(first_word) && synonyms_.at(first_word).count(second_word)) {
             //if (synonyms_.at(first_word).count(second_word)) {
                 return true;
